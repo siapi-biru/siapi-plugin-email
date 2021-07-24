@@ -1,0 +1,33 @@
+{
+  "name": "siapi-plugin-email",
+  "version": "3.6.5",
+  "description": "Easily configure your Siapi application to send emails.",
+  "siapi": {
+    "name": "Email",
+    "icon": "paper-plane",
+    "description": "email.plugin.description",
+    "required": true
+  },
+  "scripts": {
+    "test": "echo \"no tests yet\""
+  },
+  "dependencies": {
+    "lodash": "4.17.21",
+    "siapi-provider-email-sendmail": "github:siapi-biru/siapi-provider-email-sendmail#v3.6.5",
+    "siapi-utils": "github:siapi-biru/siapi-utils#v3.6.5"
+  },
+  "devDependencies": {
+    "rimraf": "3.0.2",
+    "siapi-helper-plugin": "github:siapi-biru/siapi-helper-plugin#v3.6.5"
+  },
+  
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/siapi-biru/siapi.git"
+  },
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": ">=6.0.0"
+  },
+  "gitHead": "231263a3535658bab1e9492c6aaaed8692d62a53"
+}
